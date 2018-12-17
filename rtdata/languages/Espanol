@@ -1405,7 +1405,7 @@ SAVEDLG_SUBSAMP;Submuestreo
 SAVEDLG_SUBSAMP_1;Máxima compresión
 SAVEDLG_SUBSAMP_2;Balanceado
 SAVEDLG_SUBSAMP_3;Máxima calidad
-SAVEDLG_SUBSAMP_TOOLTIP;Mejor compresión: \nJ: a: b 4: 2: 0 \nh / v 2/2 \nColor reducido a la mitad horizontal y verticalmente. \n Equilibrado: \nJ: a: b 4: 2: 2 \nh / v 2 / 1 \nColor dividido a la mitad horizontalmente. \nMejor calidad: \ nJ: a: b 4: 4: 4 \nh / v 1/1 \nNo hay submuestreo del color.
+SAVEDLG_SUBSAMP_TOOLTIP;<b>Mejor compresión:</b> \nJ: a: b 4: 2: 0 \nh / v 2/2 \nColor reducido a la mitad horizontal y verticalmente. \n<b>Equilibrado:</b> \nJ: a: b 4: 2: 2 \nh / v 2 / 1 \nColor dividido a la mitad horizontalmente. \n<b>Mejor calidad:</b> \nJ: a: b 4: 4: 4 \nh / v 1/1 \nNo hay submuestreo del color.
 SAVEDLG_TIFFUNCOMPRESSED;TIFF sin compresión
 SAVEDLG_WARNFILENAME;Se asignará nombre al archivo
 SHCSELECTOR_TOOLTIP;Pulsar el botón derecho del ratón para restablecer la posición de los tres controles deslizantes
@@ -1576,7 +1576,7 @@ TP_COLORAPP_TCMODE_SATUR;Saturación
 TP_COLORAPP_TEMP_TOOLTIP;Para seleccionar un iluminante, configure siempre Tinte = 1. \nA temperatura = 2856 \nD50 temperatura = 5003 \nD55 temperatura = 5503 \nD65 temperatura = 6504 \nD75 temperatura = 7504
 TP_COLORAPP_TONECIE;Mapeo tonal usando Brillo (Q) CIECAM02.
 TP_COLORAPP_TONECIE_TOOLTIP;Si esta opción no está seleccionada, el mapeo tonal se hace usando el espacio de color Lab.\nSi esta opción está seleccionada, el mapeo tonal se hace usando CIECAM02.\nLa herramienta de mapeo tonal debe de estar habilitada para que esta selección tenga efecto
-TP_COLORAPP_VIEWING_ABSOLUTELUMINANCE_TOOLTIP;Luminancia absoluta del entorno de visualización \ n (normalmente 16 cd / m²).
+TP_COLORAPP_VIEWING_ABSOLUTELUMINANCE_TOOLTIP;Luminancia absoluta del entorno de visualización \n (normalmente 16 cd / m²).
 TP_COLORAPP_WBCAM;BalBlanco [RT+CAT02] + [salida]
 TP_COLORAPP_WBRT;BalBlanco [RT] + [salida]
 TP_COLORAPP_YB;Yb% (luminancia media)
@@ -1677,8 +1677,8 @@ TP_DIRPYRDENOISE_CHROMINANCE_FRAME;Crominancia
 TP_DIRPYRDENOISE_CHROMINANCE_MANUAL;Manual
 TP_DIRPYRDENOISE_CHROMINANCE_MASTER;Crominancia: Maestra
 TP_DIRPYRDENOISE_CHROMINANCE_METHOD;Método
-TP_DIRPYRDENOISE_CHROMINANCE_METHODADVANCED_TOOLTIP;Manual \nActos en la imagen completa. \nUsted controla la configuración de reducción de ruido manualmente. \nAutomático global \ nAcciones en la imagen completa. \n9 zonas se utilizan para calcular una configuración de reducción de ruido de crominancia global. \nVista previa \nAcciones activadas en la totalidad de la imagen. \ nLa parte de la imagen visible en la vista previa se utiliza para calcular la configuración global de reducción de ruido de crominancia.
-TP_DIRPYRDENOISE_CHROMINANCE_METHOD_TOOLTIP;Manual \nAcciones en la imagen completa. \nUsted controla las configuraciones de reducción de ruido manualmente. \nAutomático global \nAcciones en la imagen completa. \n9 zonas se utilizan para calcular una configuración global de reducción de ruido de crominancia. \nMúltiples zonas automáticas \ nNo hay vista previa: funciona solo durante el guardado, pero al usar el método de "Vista previa" al hacer coincidir el tamaño y centro del mosaico con el centro y el tamaño de la vista previa, puede obtener una idea de los resultados esperados. \ nLa imagen se divide en mosaicos (aproximadamente 10 a 70 dependiendo del tamaño de la imagen) y cada ficha recibe su propia configuración de reducción de ruido de crominancia. \nPrevisión \nAcciones en toda la imagen. \nLa parte de la imagen visible en la vista previa se utiliza para calcular la configuración global de reducción de ruido de crominancia.
+TP_DIRPYRDENOISE_CHROMINANCE_METHODADVANCED_TOOLTIP;<b>Manual:</b>  \nAcciones en la imagen completa,\nusted controla la configuración de reducción de ruido manualmente. \n<b>Control automático global:</b> \nAcciones en la imagen completa:\n9 zonas se utilizan para calcular una configuración de reducción de ruido de crominancia global. \n<b>Vista previa:</b> \nAcciones activadas en la totalidad de la imagen. \nLa parte de la imagen visible en la vista previa se utiliza para calcular la configuración global de reducción de ruido de crominancia.
+TP_DIRPYRDENOISE_CHROMINANCE_METHOD_TOOLTIP;<b>Manual:</b> \nAcciones en la imagen completa,\nUsted controla las configuraciones de reducción de ruido manualmente. \n<b>Control automático global:</b> \nAcciones en la imagen completa:\n9 zonas se utilizan para calcular una configuración global de reducción de ruido de crominancia. \n<b>Múltiples zonas automáticas:</b> \nNo hay vista previa, funciona solo durante el guardado, pero al usar el método de <b>"Vista previa"</b> al hacer coincidir el tamaño y centro del mosaico con el centro y el tamaño de la vista previa, puede obtener una idea de los resultados esperados. \nLa imagen se divide en mosaicos (aproximadamente 10 a 70 dependiendo del tamaño de la imagen) y cada mosaico recibe su propia configuración de reducción de ruido de crominancia. \n<b>Vista Previa:</b> \nAcciones en toda la imagen. \nLa parte de la imagen visible en la vista previa se utiliza para calcular la configuración global de reducción de ruido de crominancia.
 TP_DIRPYRDENOISE_CHROMINANCE_PMZ;Vista previa de múltiples zonas
 TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW;Vista previa
 TP_DIRPYRDENOISE_CHROMINANCE_PREVIEWRESIDUAL_INFO_TOOLTIP;Muestra los niveles de ruido restantes de la parte de la imagen visible en la vista previa después de wavelet. \n> 300 Muy ruidoso \n100-300 Ruidoso \n50-100 Un poco ruidoso \n <50 Muy bajo ruido \n Cuidado, los valores diferirán entre los modos RGB y L * a * b *. Los valores RGB son menos precisos porque el modo RGB no separa completamente la luminancia y la crominancia.
@@ -1996,7 +1996,7 @@ TP_RAW_DUALDEMOSAICAUTOCONTRAST_TOOLTIP;Si la casilla está marcada (recomendado
 TP_RAW_DUALDEMOSAICCONTRAST;Umbral de contraste
 TP_RAW_EAHD;EAHD
 TP_RAW_FALSECOLOR;Pasos de supresión de color falso
-TP_RAW_FAST;Fast
+TP_RAW_FAST;Rápido
 TP_RAW_HD;Límite
 TP_RAW_HD_TOOLTIP;Los valores más bajos hacen que la detección de píxeles muertos/vivos sea más agresiva, pero los falsos positivos pueden llevar a producir elementos extraños. Si observa que aparecen elementos extraños al habilitar los filtros de píxeles calientes/muertos, aumente gradualmente el valor del umbral hasta que desaparezcan.
 TP_RAW_HPHD;HPHD
@@ -2362,7 +2362,7 @@ TP_WAVELET_NPTYPE_TOOLTIP;Este algoritmo utiliza la proximidad de un píxel y oc
 TP_WAVELET_OPACITY;Opacidad Azul-Amarillo
 TP_WAVELET_OPACITYW; Curva de balance d/v-h para contrast
 TP_WAVELET_OPACITYWL;Contraste local final
-TP_WAVELET_OPACITYWL_TOOLTIP;Modifica el contraste local definitivo al final del tratamiento wavelet \ nEl lado izquierdo representa el contraste local más pequeño, avanzando hacia la derecha el contraste local más grande
+TP_WAVELET_OPACITYWL_TOOLTIP;Modifica el contraste local definitivo al final del tratamiento wavelet \nEl lado izquierdo representa el contraste local más pequeño, avanzando hacia la derecha el contraste local más grande
 TP_WAVELET_PASTEL;Cromaticidad(colores) pastel
 TP_WAVELET_PROC;Proceso
 TP_WAVELET_RE1;Reforzado
@@ -2453,9 +2453,7 @@ ZOOMPANEL_ZOOMFITCROPSCREEN;Ajustar el recorte a la pantalla \nCorte corto: <b> 
 ZOOMPANEL_ZOOMFITSCREEN;Ajustar a pantalla\nTecla de Atajo: <b>Alt</b>-<b>f</b>
 ZOOMPANEL_ZOOMIN;Aumentar Zoom\nTecla de Atajo: <b>+</b>
 ZOOMPANEL_ZOOMOUT;Reducir Zoom\nTecla de Atajo: <b>-</b>
-
+CURVEEDITOR_CATMULLROM;Flexible
 !!!!!!!!!!!!!!!!!!!!!!!!!
-! Untranslated keys follow; remove the ! prefix after an entry is translated.
+!Siguen las claves no traducidas; eliminar el prefijo ! antes de una entrada cuando se traduce para que esta sea visible.
 !!!!!!!!!!!!!!!!!!!!!!!!!
-
-!CURVEEDITOR_CATMULLROM;Flexible
